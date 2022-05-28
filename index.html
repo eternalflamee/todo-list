@@ -19,5 +19,13 @@
         <option value="completed">Завершенные</option>
         <option value="deleted">Удаленные</option>
     </select>
+    <ul class="todo_items">
+        <li class="todo__item" data-todo-state="active">
+            <span class="todo__task">Текст задачи</span>
+            <span class="todo__action todo__action_restore" data-todo-action="active"></span>
+            <span class="todo__action todo__action_complete" data-todo-action="completed"></span>
+            <span class="todo__action todo__action_delete" data-todo-action="deleted"></span>
+          </li>
+    </ul>
 </body>
 </html>
